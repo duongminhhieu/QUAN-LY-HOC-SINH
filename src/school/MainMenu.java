@@ -61,6 +61,7 @@ public class MainMenu extends javax.swing.JFrame {
         jLabel13 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
         Body = new javax.swing.JPanel();
+        jLabel15 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
 
@@ -217,6 +218,13 @@ public class MainMenu extends javax.swing.JFrame {
 
         Body.setOpaque(false);
         Body.setLayout(new java.awt.BorderLayout());
+
+        jLabel15.setFont(new java.awt.Font("Calibri", 1, 36)); // NOI18N
+        jLabel15.setForeground(new java.awt.Color(0, 153, 255));
+        jLabel15.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel15.setText("Chào mừng đến hệ thống Quản lý Học Sinh");
+        Body.add(jLabel15, java.awt.BorderLayout.CENTER);
+
         jPanel1.add(Body, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 73, 790, 552));
 
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -416,6 +424,7 @@ public class MainMenu extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
